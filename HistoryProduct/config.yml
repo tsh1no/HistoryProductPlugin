@@ -1,0 +1,8 @@
+name: 最近みた商品一覧プラグイン
+code: HistoryProduct
+version: 1.0.0
+service:
+  - HistoryProductServiceProvider
+orm.path:
+  - /Resource/doctrine
+event: HistoryProductEvent
